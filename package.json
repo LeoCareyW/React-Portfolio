@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "babel-preset-env": "1.5.2",
+    "babel-preset-react": "6.24.1",
+    "chokidar": "^3.4.1",
+    "fsevents": "^2.1.3",
+    "live-server": "^1.2.1"
+  },
+  "name": "indecision-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "LCW",
+  "license": "MIT"
+}
