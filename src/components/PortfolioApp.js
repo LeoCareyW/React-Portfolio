@@ -8,7 +8,6 @@ const PortfolioApp = () => (
       <div>
         <Header />
         <IntroText />
-        <Projects />
       </div>
 
     )
