@@ -1,13 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-class Project extends React.Component {
+class NotFoundPage extends React.Component {
   render() {
     return (
       <div>
-        <p>404 - We're sorry, this page can't be found</p>
+        <p>404 - <Link to="/">Go home</Link></p>
       </div>
     );
   }
 }
 
-export default Project
+export default NotFoundPage
