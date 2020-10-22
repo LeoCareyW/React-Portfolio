@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 const Project = (props) => {
 return (
-      <div>
-        <p>This is {props.name}</p>
+      <div className="project">
+        <p>{props.name}</p>
         <p>{props.language}</p>
       </div>
     );

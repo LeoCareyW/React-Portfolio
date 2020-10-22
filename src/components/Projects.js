@@ -11,7 +11,7 @@ class Projects extends React.Component {
     this.state = {
       showAll: true,
       showRuby: false,
-      showReact: false
+      showReact: false,
     };
   }
 
@@ -54,24 +54,51 @@ class Projects extends React.Component {
         <button onClick={this.handleRubyClick}>Ruby</button>
         <button onClick={this.handleReactClick}>React</button>
 
-        {(this.state.showAll || this.state.showReact) && <Project
-          name='Project 1'
-          language="react"
-        />
-      }
-
-        {(this.state.showAll || this.state.showReact) && <Project
-          name='Project 2'
-          language="react"
-        />
-      }
-
-        {(this.state.showAll || this.state.showRuby) && <Project
-          name='Project 3'
-          language="ruby"
-        />
-      }
+        <div className="projects-grid">
+            {(this.state.showAll || this.state.showReact) && <Project
+              name='Expensise'
+              language='react'
+              description='Lorem ipsum'
+            />
+            }
+            {(this.state.showAll || this.state.showReact) && <Project
+              name='Indecision'
+              language='react'
+              description='lorem ipsum description of project 2'
+            />
+            }
+            {(this.state.showAll || this.state.showRuby) && <Project
+              name='Material Matters'
+              language='ruby'
+              description='lorem ipsum second description'
+            />
+            }
+            {(this.state.showAll || this.state.showRuby) && <Project
+              name='Socialite'
+              language='ruby'
+              description='lorem ipsum fourth description'
+            />
+            }
+            {(this.state.showAll || this.state.showReact) && <Project
+              name='Yelp API'
+              language='react'
+              description='lorem ipsum description of project 2'
+            />
+            }
+            {(this.state.showAll || this.state.showRuby) && <Project
+              name='Pad'
+              language='ruby'
+              description='lorem ipsum fifth description'
+            />
+            }
+            {(this.state.showAll || this.state.showRuby) && <Project
+              name='Susso'
+              language='ruby'
+              description='lorem ipsum sixth description'
+            />
+            }
       </div>
+    </div>
     );
   }
 }

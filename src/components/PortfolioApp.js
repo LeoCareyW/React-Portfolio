@@ -7,7 +7,9 @@ import { Link } from 'react-router-dom';
 
 const PortfolioApp = () => (
       <div>
-        <h1>Home</h1>
+        <h1>Leo Carey-Williams</h1>
+        <h3>Full Stack Web Developer</h3>
+        <p>LinkedIn, Spotify, Github</p>
         <IntroText />
       </div>
     )
