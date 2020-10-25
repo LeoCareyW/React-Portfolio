@@ -6,3 +6,13 @@
 .header-item {
   margin: 30px;
 }
+
+.is-active {
+  a {
+    color: black;
+  }
+  font-weight: bold;
+  background-color: white;
+  padding: 5px;
+  border-radius: 30px;
+}
