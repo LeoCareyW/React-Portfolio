@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Project = (props) => {
+const Project = ({name, language, description}) => {
 return (
       <div className="project">
-        <p>{props.name}</p>
-        <p>{props.language}</p>
+        <p>{name}</p>
+        <p>{language}</p>
+        <p>{description}</p>
       </div>
     );
 }
