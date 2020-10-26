@@ -3,6 +3,7 @@ import Header from './Header';
 import IntroText from './IntroText';
 import Projects from './Projects';
 import { Link } from 'react-router-dom';
+import Footer from './Footer';
 
 
 const PortfolioApp = () => (
