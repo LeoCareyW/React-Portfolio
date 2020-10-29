@@ -12,6 +12,7 @@ const PortfolioApp = () => (
         <h3>Full Stack Web Developer</h3>
         <p>LinkedIn, Spotify, Github</p>
         <IntroText />
+        <Footer />
       </div>
     )
 
