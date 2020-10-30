@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 class Footer extends React.Component {
   render() {
     return (
-      <div>
+      <div class="footer">
         <h1>Footer Element</h1>
       </div>
     );
