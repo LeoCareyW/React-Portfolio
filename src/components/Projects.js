@@ -12,6 +12,7 @@ class Projects extends React.Component {
       showAll: true,
       showRuby: false,
       showReact: false,
+      showReactNative: false
     };
   }
 
@@ -20,7 +21,8 @@ class Projects extends React.Component {
       return {
         showAll: true,
         showReact: false,
-        showRuby: false
+        showRuby: false,
+        showReactNative: false
       };
     });
   }
@@ -30,7 +32,8 @@ class Projects extends React.Component {
       return {
         showAll: false,
         showReact: true,
-        showRuby: false
+        showRuby: false,
+        showReactNative: true
       };
     });
   }
@@ -40,7 +43,8 @@ class Projects extends React.Component {
       return {
         showAll: false,
         showRuby: true,
-        showReact: false
+        showReact: false,
+        showReactNative: false
       };
     });
   }
