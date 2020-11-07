@@ -57,6 +57,8 @@ class Projects extends React.Component {
         <button onClick={this.handleAllClick}>All</button>
         <button onClick={this.handleRubyClick}>Ruby</button>
         <button onClick={this.handleReactClick}>React</button>
+        <button> onClick={this.handleReactClick}>React Native</button>
+        <h3> Note that react and react native projects overlap in many cases</h3>
 
         <div className="projects-grid">
             {(this.state.showAll || this.state.showReact) && <Project
