@@ -19,4 +19,4 @@ const PortfolioApp = () => (
 export default PortfolioApp
 
 
-// add logos and resizing on hover along with href links
+
